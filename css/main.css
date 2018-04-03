@@ -88,7 +88,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   height: 415px;
-  padding-bottom: 60px;
+  padding-bottom: 600px;
 }
 
 #skills {
@@ -265,7 +265,7 @@ nav a.active {
   }
 
   #trees {
-    padding-bottom:180px;
+    padding-bottom:400px;
     margin-bottom:40px;
     height: 615px;
   }
@@ -313,7 +313,3 @@ nav a.active {
   display: block;
 }
  
-
-
-
-
