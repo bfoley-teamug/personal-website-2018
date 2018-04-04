@@ -284,7 +284,14 @@ nav a.active {
   }
 }
 
-/*///media quiries*/
+@media (max-width: 480px) {
+  #trees {
+    padding-bottom:500px;
+    height: 850px;
+  }
+}
+
+/* end media quiries*/
  
 
 .header {
