@@ -286,8 +286,16 @@ nav a.active {
 
 @media (max-width: 480px) {
   #trees {
-    padding-bottom:500px;
-    height: 850px;
+  background: linear-gradient(
+      rgba(10, 149, 10, .08), 
+      rgba(10, 149, 10, .08)
+    ), url('../img/landscape4.jpg') no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-bottom: 500px;
+    height: 550px;
   }
 }
 
