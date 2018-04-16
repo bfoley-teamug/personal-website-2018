@@ -24,12 +24,7 @@ $('.work').sticky({
   getWidthFrom: '.container',
   responsiveWidth: true
 });
-$('.work').on('sticky-start', function() {
-  $(this).append(' <a href="mailto:email@website.com" class="email-text">Email&nbsp;us</a>');
-});
-$('.work').on('sticky-end', function() {
-    $('.email-text').remove();
-});
+
 
 
 

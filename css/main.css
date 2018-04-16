@@ -38,7 +38,11 @@ ul li {
 }
 
 li {
- font-size: 14px;  
+ font-size: 18px;  
+}
+
+.skillset {
+ margin-right: 20px;  
 }
 
 p {
@@ -194,7 +198,6 @@ nav a.active {
 }
 
 
-
 /*media quiries*/
 
 @media (max-width: 1500px) {
@@ -230,13 +233,7 @@ nav a.active {
 
 }
 @media (max-width: 700px) {
-  .tagline {
-    display: none;
-  }
-  .logo {
-    display: none;
-    margin: 20px auto 0;
-  }
+  
   .grid-half {
     width: 80%;
     margin: 0 10%;
@@ -249,9 +246,7 @@ nav a.active {
     width: 80%;
     margin: 0 10%;
   }
-  .row {
-    padding: 0 10px;
-  }
+ 
   nav {
     width: 100%;
   }
